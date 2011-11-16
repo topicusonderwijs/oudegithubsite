@@ -68,7 +68,9 @@ Github geeft een aantal goede tips voor het installeren van de tools.
  * [Windows](http://help.github.com/win-set-up-git)
 
 Voor Eclipse gebruiker is er een online [handleiding voor
-EGit](http://wiki.eclipse.org/EGit/User_Guide) beschikbaar.
+EGit](http://wiki.eclipse.org/EGit/User_Guide) beschikbaar. Uit ervaring is
+gebleken dat de nightly versie van EGit beter is dan de stable 1.1. Rond 15-12
+zou 1.2 uit moeten komen, wellicht dat hier dan verandering in komt.
 
 ### Mac OS X gebruikers ###
 
@@ -90,7 +92,9 @@ Git](http://code.google.com/p/tortoisegit/). Geen idee of het werkt.
 
 ### Linux gebruikers ###
 
-Gebruik de commandline of de egit Eclipse plugin.
+Gebruik de commandline of de egit Eclipse plugin. Voor de KDE gebruikers is er
+QGit en voor de Gnome gebruiker gitg. De eerste van deze ziet er aanmerkelijk
+beter uit dan de tweede.
 
 ### Release bouwers ###
 
