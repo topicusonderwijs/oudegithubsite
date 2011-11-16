@@ -1,3 +1,6 @@
+---
+title: Topicus Onderwijs
+---
 Topicus Onderwijs
 =================
 

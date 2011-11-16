@@ -1,3 +1,6 @@
+---
+title: GIT migratie handboek
+---
 GIT migratie handboek
 =====================
 
