@@ -9,7 +9,7 @@ institutions in the Netherlands. Creators of leading products as:
 
  * [ParnasSys](http://parnassys.nl),
  * [SOM](http://topicus.nl/onderwijs/klanten/simac),
- * [EduArte](http://www.educus.nl/web/29675/25) en
+ * [EduArte](http://www.educus.nl/web/29675/25) and
  * [Alluris](http://www.educus.nl/web/29675/29)
 
 This site is used as a documentation project for our github usage. As we are
