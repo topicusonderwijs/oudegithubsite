@@ -16,10 +16,9 @@ This site is used as a documentation project for our github usage. As we are
 a dutch company, the rest of this document and other documentation will be
 dutch only.
 
-Documenten
-----------
+Documentatie
+------------
 
-Diverse documentatie voor onze Github aanwezigheid:
-
- * [Migratie handleiding](migratie.html)
-
+Zie de
+[wiki](https://github.com/topicusonderwijs/topicusonderwijs.github.com/wiki)
+voor alle documentatie.
