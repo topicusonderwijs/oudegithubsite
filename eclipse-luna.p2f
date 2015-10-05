@@ -19,9 +19,9 @@
         <repository location='https://github.com/topicusonderwijs/m2e-settings/raw/master/site'/>
       </repositories>
     </iu>
-    <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='3.0.0.20140706-2cfb468'>
+    <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='3.0.1.20150306-5afe4d1'>
       <repositories size='1'>
-        <repository location='http://download.jboss.org/jbosstools/updates/stable/luna/'/>
+        <repository location='http://findbugs.cs.umd.edu/eclipse/'/>
       </repositories>
     </iu>
     <iu id='org.jboss.tools.maven.feature.feature.group' name='JBoss Maven Integration' version='1.6.2.Final-v20150325-0325-B120'>
