@@ -103,7 +103,7 @@
     </iu>
     <iu id='qwickie.feature.feature.group' name='qwickie' version='1.1.10.201505151949'>
       <repositories size='1'>
-        <repository location='https://bitbucket.org/count_negative/qwickie/src/master/qwickie.updatesite/'/>
+        <repository location='http://raw.githubusercontent.com/count-negative/qwickie/master/qwickie.updatesite/site.xml'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.wst.jsdt.feature.patch.feature.group' name='WTP Patches for org.eclipse.wst.jsdt.feature' version='3.6.3.v201503191608'>
