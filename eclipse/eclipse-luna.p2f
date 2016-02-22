@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='20'>
+  <ius size='17'>
     <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.4.2.20150219-0708'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/luna'/>
@@ -52,21 +52,6 @@
     <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBossAS Tools' version='3.0.3.Final-v20150325-0035-B129'>
       <repositories size='1'>
         <repository location='http://download.jboss.org/jbosstools/updates/stable/luna/'/>
-      </repositories>
-    </iu>
-    <iu id='org.zeroturnaround.eclipse.feature.feature.group' name='JRebel (required)' version='6.2.0.RELEASE-201505210657'>
-      <repositories size='1'>
-        <repository location='http://update.zeroturnaround.com/update-site'/>
-      </repositories>
-    </iu>
-    <iu id='org.zeroturnaround.eclipse.wtp.feature.feature.group' name='JRebel for Java EE' version='6.2.0.RELEASE-201505210657'>
-      <repositories size='1'>
-        <repository location='http://update.zeroturnaround.com/update-site'/>
-      </repositories>
-    </iu>
-    <iu id='org.zeroturnaround.eclipse.m2e.feature.feature.group' name='JRebel m2eclipse (requires m2eclipse plugin)' version='6.2.0.RELEASE-201505210657'>
-      <repositories size='1'>
-        <repository location='http://update.zeroturnaround.com/update-site'/>
       </repositories>
     </iu>
     <iu id='org.sonatype.m2e.antlr.feature.feature.group' name='m2e connector for antlr' version='0.15.0.201207090124'>

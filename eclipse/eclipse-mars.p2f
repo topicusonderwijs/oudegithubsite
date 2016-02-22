@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='19'>
+  <ius size='16'>
     <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.5.1.20150917-1200'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/mars'/>
@@ -52,21 +52,6 @@
     <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBoss AS, WildFly &amp; EAP Server Tools' version='3.1.0.CR1-v20150917-2320-B41'>
       <repositories size='1'>
         <repository location='http://download.jboss.org/jbosstools/updates/development/mars/'/>
-      </repositories>
-    </iu>
-    <iu id='org.zeroturnaround.eclipse.feature.feature.group' name='JRebel (required)' version='6.2.5.RELEASE-201509301022'>
-      <repositories size='1'>
-        <repository location='http://update.zeroturnaround.com/update-site'/>
-      </repositories>
-    </iu>
-    <iu id='org.zeroturnaround.eclipse.wtp.feature.feature.group' name='JRebel for Java EE' version='6.2.5.RELEASE-201509301022'>
-      <repositories size='1'>
-        <repository location='http://update.zeroturnaround.com/update-site'/>
-      </repositories>
-    </iu>
-    <iu id='org.zeroturnaround.eclipse.m2e.feature.feature.group' name='JRebel m2eclipse (requires m2eclipse plugin)' version='6.2.5.RELEASE-201509301022'>
-      <repositories size='1'>
-        <repository location='http://update.zeroturnaround.com/update-site'/>
       </repositories>
     </iu>
     <iu id='org.sonatype.m2e.antlr.feature.feature.group' name='m2e connector for antlr' version='0.15.0.201207090124'>
