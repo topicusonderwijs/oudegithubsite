@@ -2,7 +2,8 @@
 <?p2f version='1.0.0'?><p2f version='1.0.0'>
   <ius size='17'>
     <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='3.0.2.20160306-90c514b'>
-      <repositories size='0'/>
+      <repositories size='1'>
+        <repository location='http://andrei.gmxhome.de/eclipse'/>
     </iu>
     <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.6.0.20160613-1800'>
       <repositories size='1'>
@@ -89,9 +90,8 @@
         <repository location='http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-antlr/0.15.0/N/0.15.0.201207090124/'/>
       </repositories>
     </iu>
-    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201207090124'>
-      <repositories size='3'>
-        <repository location='http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/'/>
+    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201405280027'>
+      <repositories size='2'>
         <repository location='http://download.jboss.org/jbosstools/neon/stable/updates/'/>
         <repository location='http://download.jboss.org/jbosstools/neon/development/updates'/>
       </repositories>
