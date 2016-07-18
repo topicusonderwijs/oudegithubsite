@@ -4,6 +4,7 @@
     <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='3.0.2.20160306-90c514b'>
       <repositories size='1'>
         <repository location='http://andrei.gmxhome.de/eclipse'/>
+      </repositories>
     </iu>
     <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.6.0.20160613-1800'>
       <repositories size='1'>
