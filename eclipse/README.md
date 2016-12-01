@@ -7,6 +7,7 @@ ontwikkeling te installeren in een kale Eclipse.
 
 Download het configuratie (p2f) bestand voor jouw Eclipse versie:
 
+- 4.7 -> Oxygen
 - 4.6 -> Neon
 - 4.5 -> Mars
 - 4.4 -> Luna
@@ -35,7 +36,7 @@ export er overheen te zetten.
 - Download de `Eclipse IDE for Java Developers` editie van Eclipse
 - Kies voor `Install new software`
 - Kies uit de lijst:
-  - `Eclipse Settings for M2E`
+  - `Eclipse IDE for Java Developers`
   - `Eclipse Java Web Developer Tools`
   - `m2e-wtp - Maven Integration for WTP`
   - `Eclipse Web Developer Tools`
