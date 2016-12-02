@@ -64,22 +64,22 @@ export er overheen te zetten.
 - Exporteer de installatie bestanden via File -> Export -> Installed Software Items to file.
   - Kies voor `eclipse-<release>.p2f`: 
   - Als de export klaagt over `FindBugs` activeer dan de update site `http://andrei.gmxhome.de/eclipse`.
-    - `FindBugs Feature`
     - `Eclipse IDE for Java Developers`
     - `Eclipse Java Web Developer Tools`
-    - `Eclipse Settings for M2E`
     - `Eclipse Web Developer Tools`
+    - `Eclipse Settings for M2E`
+    - `FindBugs Feature`
     - `JBoss AS, WildFly &amp; EAP Server Tools`
-    - `JBoss Tools JDT Extensions`
-    - `m2e-wtp - Maven Integration for WTP`
-    - `JBoss Tools Java Standard Tools`
-    - `Maven Integration for Eclipse JDT APT`
     - `JBoss Maven Integration`
+    - `JBoss Tools EGit Integration`
+    - `JBoss Tools Java Standard Tools`
+    - `JBoss Tools JDT Extensions`
     - `JBoss Tools Maven Packaging Configurator`
     - `JBoss Tools Maven Source Lookup`
-    - `JBoss Tools EGit Integration`
     - `m2e connector for antlr`
     - `m2e connector for build-helper-maven-plugin`
+    - `m2e-wtp - Maven Integration for WTP`
+    - `Maven Integration for Eclipse JDT APT`
     - `qwickie`
   - Kies voor `eclipse-<release>-jrebel.p2f` alleen alle JRebel opties.
 
