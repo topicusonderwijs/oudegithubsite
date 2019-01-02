@@ -90,7 +90,8 @@ export er overheen te zetten.
 
 ### p2 director gebruiken
 
-```./MacOS/eclipse \
+```
+./eclipse \
 -clean -purgeHistory \
 -application org.eclipse.equinox.p2.director \
 -noSplash \
@@ -124,4 +125,5 @@ org.zeroturnaround.eclipse.feature.feature.group,\
 org.zeroturnaround.eclipse.m2e.feature.feature.group,\
 org.zeroturnaround.eclipse.wtp.feature.feature.group,\
 qwickie.feature.feature.group \
--vmargs -xmx1g -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true```
+-vmargs -xmx1g -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true
+```
