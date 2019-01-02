@@ -7,11 +7,9 @@ ontwikkeling te installeren in een kale Eclipse.
 
 Download het configuratie (p2f) bestand voor jouw Eclipse versie:
 
-- 4.8 -> Photon
-- 4.7 -> Oxygen
-- 4.6 -> Neon
-- 4.5 -> Mars
-- 4.4 -> Luna
+- 4.10 -> 2018-10
+- 4.9  -> 2018-09
+- 4.8  -> Photon
 
 En importeer het bestand in Eclipse via File -> Import... -> Install -> Install Software Items from File
 
@@ -88,3 +86,42 @@ export er overheen te zetten.
     - Zorg dat je voor `jboss.org` URLs naast `../<release>/stable/updates` ook `../<release>/development/updates` regels hebt. 
     - Hierdoor krijgen we sneller updates ipv dat we lang op oude versies draaien.
   - Sorteer het bestand dmv `./sort.sh eclipse-<release>.p2f`
+
+
+### p2 director gebruiken
+
+```./MacOS/eclipse \
+-clean -purgeHistory \
+-application org.eclipse.equinox.p2.director \
+-noSplash \
+-consolelog \
+-repository \
+https://spotbugs.github.io/eclipse/,\
+https://download.eclipse.org/releases/2018-12/,\
+https://download.eclipse.org/eclipse/updates/4.10/,\
+https://download.jboss.org/jbosstools/photon/stable/updates/,\
+https://download.jboss.org/jbosstools/photon/development/updates/,\
+https://update.zeroturnaround.com/update-site/,\
+https://github.com/topicusonderwijs/m2e-settings/raw/master/site/,\
+https://raw.githubusercontent.com/count-negative/qwickie/master/qwickie.updatesite/site.xml \
+-installIUs \
+com.github.spotbugs.plugin.eclipse.feature.group,\
+nl.topicus.m2e.settings.feature.feature.group,\
+org.eclipse.jst.web_ui.feature.feature.group,\
+org.eclipse.m2e.wtp.feature.feature.group,\
+org.eclipse.wst.web_ui.feature.feature.group,\
+org.jboss.ide.eclipse.as.feature.feature.group,\
+org.jboss.tools.common.jdt.feature.feature.group,\
+org.jboss.tools.jst.feature.feature.group,\
+org.jboss.tools.maven.apt.feature.feature.group,\
+org.jboss.tools.maven.feature.feature.group,\
+org.jboss.tools.maven.jbosspackaging.feature.feature.group,\
+org.jboss.tools.maven.sourcelookup.feature.feature.group,\
+org.jboss.tools.openshift.egit.integration.feature.feature.group,\
+org.sonatype.m2e.antlr.feature.feature.group,\
+org.sonatype.m2e.buildhelper.feature.feature.group,\
+org.zeroturnaround.eclipse.feature.feature.group,\
+org.zeroturnaround.eclipse.m2e.feature.feature.group,\
+org.zeroturnaround.eclipse.wtp.feature.feature.group,\
+qwickie.feature.feature.group \
+-vmargs -xmx1g -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true```
