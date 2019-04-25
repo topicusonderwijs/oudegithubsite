@@ -7,6 +7,7 @@ ontwikkeling te installeren in een kale Eclipse.
 
 Download het configuratie (p2f) bestand voor jouw Eclipse versie:
 
+- 4.11 -> 2019-03
 - 4.10 -> 2018-12
 - 4.9  -> 2018-09
 - 4.8  -> Photon
