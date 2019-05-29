@@ -86,8 +86,7 @@ export er overheen te zetten.
     - Zorg dat je voor `eclipse.org` URLs naast `../releases/<release>` ook `../eclipse/updates/<versie>` regels hebt.
     - Zorg dat je voor `jboss.org` URLs naast `../<release>/stable/updates` ook `../<release>/development/updates` regels hebt. 
     - Hierdoor krijgen we sneller updates ipv dat we lang op oude versies draaien.
-  - Sorteer het bestand dmv `./sort.sh eclipse-<release>.p2f`
-
+  - Sorteer het bestand dmv `./sort.sh eclipse-<release>.p2f` . Onder windows moet je hiervoor de xslt proc correct installeren ( git heeft namelijk een halfbakken versie ingebouwen ) zie hiervoor http://www.sagehill.net/docbookxsl/InstallingAProcessor.html. Ook werkt SED (wat in sort.sh zit) iets anders en zul je ipv wat er nu staat `sed -i "" -e` de dubbele quotes weghalen en ` sed -i -e` moeten doen . Als je problemen hebt werkt het fijn om de commando's los uit te voeren vanaf de windows commandline omdat die meer meldingen teruggeeft wat er misgaat. Je zou eventueel ook iemand met een unix/osx machine kunnen vragen om het te doen. 
 
 ### p2 director gebruiken
 
