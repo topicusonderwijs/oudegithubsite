@@ -7,6 +7,7 @@ ontwikkeling te installeren in een kale Eclipse.
 
 Download het configuratie (p2f) bestand voor jouw Eclipse versie:
 
+- 4.13 -> 2019-09
 - 4.12 -> 2019-06
 - 4.11 -> 2019-03
 - 4.10 -> 2018-12

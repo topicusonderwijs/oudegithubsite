@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?><p2f version='1.0.0'>
+  <ius size='17'>
+    <iu id='com.github.spotbugs.plugin.eclipse.feature.group' name='SpotBugs' version='4.0.0.201904010749-792e955'>
+      <repositories size='1'>
+        <repository location='https://spotbugs.github.io/eclipse/'/>
+      </repositories>
+    </iu>
+    <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.13.0.20190917-0000'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/2019-09'/>
+        <repository location='http://download.eclipse.org/eclipse/updates/4.13'/>
+      </repositories>
+    </iu>
+    <iu id='nl.topicus.m2e.settings.feature.feature.group' name='Eclipse Settings for M2E' version='2.0.4.201503271431'>
+      <repositories size='1'>
+        <repository location='https://github.com/topicusonderwijs/m2e-settings/raw/master/site'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.jst.web_ui.feature.feature.group' name='Eclipse Java Web Developer Tools' version='3.15.0.v201908261515'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/2019-09'/>
+        <repository location='http://download.eclipse.org/eclipse/updates/4.13'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.m2e.wtp.feature.feature.group' name='m2e-wtp - Maven Integration for WTP' version='1.4.2.20190530-0057'>
+      <repositories size='2'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.12.0'/>
+        <repository location='http://download.eclipse.org/releases/2019-09'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.wst.web_ui.feature.feature.group' name='Eclipse Web Developer Tools' version='3.15.0.v201908192247'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/2019-09'/>
+        <repository location='http://download.eclipse.org/eclipse/updates/4.13'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBoss AS, WildFly &amp; EAP Server Tools' version='3.7.0.v20190624-1620'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.common.jdt.feature.feature.group' name='JBoss Tools JDT Extensions' version='3.11.0.v20190403-0927'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.jst.feature.feature.group' name='JBoss Tools Java Standard Tools' version='3.9.101.v20190109-0825'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.apt.feature.feature.group' name='Maven Integration for Eclipse JDT APT' version='1.5.2.201812241535'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.feature.feature.group' name='JBoss Maven Integration' version='1.9.2.v20181226-1320'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.jbosspackaging.feature.feature.group' name='JBoss Tools Maven Packaging Configurator' version='1.9.2.v20181211-1326'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.sourcelookup.feature.feature.group' name='JBoss Tools Maven Source Lookup' version='1.9.2.v20181211-1326'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.openshift.egit.integration.feature.feature.group' name='JBoss Tools EGit Integration' version='3.7.0.v20190404-1251'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.sonatype.m2e.antlr.feature.feature.group' name='m2e connector for antlr' version='0.15.0.201207090124'>
+      <repositories size='1'>
+        <repository location='http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-antlr/0.15.0/N/0.15.0.201207090124/'/>
+      </repositories>
+    </iu>
+    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201405280027'>
+      <repositories size='2'>
+        <repository location='http://download.jboss.org/jbosstools/photon/stable/updates'/>
+        <repository location='http://download.jboss.org/jbosstools/photon/development/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='qwickie.feature.feature.group' name='qwickie' version='1.1.10.201505151949'>
+      <repositories size='1'>
+        <repository location='https://raw.githubusercontent.com/count-negative/qwickie/master/qwickie.updatesite/site.xml'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
