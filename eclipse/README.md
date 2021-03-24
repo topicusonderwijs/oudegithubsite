@@ -59,10 +59,13 @@ export er overheen te zetten.
     - `JBoss Tools Maven Packaging Configurator`
     - `JBoss Tools Maven Source Lookup`
     - `Maven Integration for Eclipse JDT APT`
+- Installeer deze opties en herstart
 - Open `Preferences` en ga naar Maven > Discovery > Open Catalog en selecteer:
     - `antlr`
     - `buildhelper`
-- Kies `Check for updates`
+    - `maven-dependency-plugin`
+- Installeer deze opties en herstart
+- Kies `Check for updates` en herstart indien gevraagd
 - Exporteer de installatie bestanden via File -> Export -> Installed Software Items to file.
   - Kies voor `eclipse-<release>.p2f`: 
     - `Eclipse IDE for Java Developers`
@@ -79,53 +82,9 @@ export er overheen te zetten.
     - `JRebel` (alle varianten)
     - `m2e connector for antlr`
     - `m2e connector for build-helper-maven-plugin`
+    - `m2e connector for maven-dependency-plugin`
     - `m2e-wtp - Maven Integration for WTP`
     - `Maven Integration for Eclipse JDT APT`
     - `qwickie`
     - `SpotBugs`
-  - Controleer `eclipse-<release>.p2f` en verwijder/vervang regels met datums als bv `'http://download.eclipse.org/releases/neon/201606221000'`.
-  -  Vergelijk de bestanden met de bestanden van vorige releases. 
-    - Zorg dat je voor `eclipse.org` URLs naast `../releases/<release>` ook `../eclipse/updates/<versie>` regels hebt.
-    - Zorg dat je voor `jboss.org` URLs naast `../<release>/stable/updates` ook `../<release>/development/updates` regels hebt. 
-    - Hierdoor krijgen we sneller updates ipv dat we lang op oude versies draaien.
   - Sorteer het bestand dmv `./sort.sh eclipse-<release>.p2f` . Onder windows moet je hiervoor de xslt proc correct installeren ( git heeft namelijk een halfbakken versie ingebouwen ) zie hiervoor http://www.sagehill.net/docbookxsl/InstallingAProcessor.html. Ook werkt SED (wat in sort.sh zit) iets anders en zul je ipv wat er nu staat `sed -i "" -e` de dubbele quotes weghalen en ` sed -i -e` moeten doen . Als je problemen hebt werkt het fijn om de commando's los uit te voeren vanaf de windows commandline omdat die meer meldingen teruggeeft wat er misgaat. Je zou eventueel ook iemand met een unix/osx machine kunnen vragen om het te doen. 
-
-### p2 director gebruiken
-
-```
-./eclipse \
--clean -purgeHistory \
--application org.eclipse.equinox.p2.director \
--noSplash \
--consolelog \
--repository \
-https://spotbugs.github.io/eclipse/,\
-https://download.eclipse.org/releases/2018-12/,\
-https://download.eclipse.org/eclipse/updates/4.10/,\
-https://download.jboss.org/jbosstools/photon/stable/updates/,\
-https://download.jboss.org/jbosstools/photon/development/updates/,\
-https://update.zeroturnaround.com/update-site/,\
-https://github.com/topicusonderwijs/m2e-settings/raw/master/site/,\
-https://raw.githubusercontent.com/count-negative/qwickie/master/qwickie.updatesite/site.xml \
--installIUs \
-com.github.spotbugs.plugin.eclipse.feature.group,\
-nl.topicus.m2e.settings.feature.feature.group,\
-org.eclipse.jst.web_ui.feature.feature.group,\
-org.eclipse.m2e.wtp.feature.feature.group,\
-org.eclipse.wst.web_ui.feature.feature.group,\
-org.jboss.ide.eclipse.as.feature.feature.group,\
-org.jboss.tools.common.jdt.feature.feature.group,\
-org.jboss.tools.jst.feature.feature.group,\
-org.jboss.tools.maven.apt.feature.feature.group,\
-org.jboss.tools.maven.feature.feature.group,\
-org.jboss.tools.maven.jbosspackaging.feature.feature.group,\
-org.jboss.tools.maven.sourcelookup.feature.feature.group,\
-org.jboss.tools.openshift.egit.integration.feature.feature.group,\
-org.sonatype.m2e.antlr.feature.feature.group,\
-org.sonatype.m2e.buildhelper.feature.feature.group,\
-org.zeroturnaround.eclipse.feature.feature.group,\
-org.zeroturnaround.eclipse.m2e.feature.feature.group,\
-org.zeroturnaround.eclipse.wtp.feature.feature.group,\
-qwickie.feature.feature.group \
--vmargs -xmx1g -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true
-```
