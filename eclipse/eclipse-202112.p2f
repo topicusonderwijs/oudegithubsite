@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?><p2f version='1.0.0'>
+  <ius size='19'>
+    <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.22.0.20211202-1200'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/technology/epp/packages/latest/'/>
+        <repository location='https://download.eclipse.org/releases/2021-12/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='3.1.5.v20210113-0929'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='http://download.eclipse.org/releases/2021-03'/>
+        <repository location='https://download.eclipse.org/releases/2021-12/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.jst.web_ui.feature.feature.group' name='Eclipse Java Web Developer Tools' version='3.24.0.v202110010355'>
+      <repositories size='2'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2021-12/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.m2e.feature.feature.group' name='M2E - Maven Integration for Eclipse (includes Incubating components)' version='1.19.0.20211116-0804'>
+      <repositories size='2'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2021-12/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.wildwebdeveloper.xml.feature.feature.group' name='Wild Web Developer XML tools' version='0.13.1.202111081705'>
+      <repositories size='2'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2021-12/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.wst.web_ui.feature.feature.group' name='Eclipse Web Developer Tools' version='3.24.0.v202111190506'>
+      <repositories size='2'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2021-12/'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBoss AS, WildFly &amp; EAP Server Tools' version='3.9.104.v20210113-0926'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.common.jdt.feature.feature.group' name='JBoss Tools JDT Extensions' version='3.15.100.v20210112-1443'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.jst.feature.feature.group' name='JBoss Tools Java Standard Tools' version='3.9.300.v20200605-1455'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.apt.feature.feature.group' name='Maven Integration for Eclipse JDT APT' version='1.5.3.201911081053'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.feature.feature.group' name='JBoss Maven Integration' version='1.9.200.v20200925-0612'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.jbosspackaging.feature.feature.group' name='JBoss Tools Maven Packaging Configurator' version='1.9.100.v20200609-1353'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.maven.sourcelookup.feature.feature.group' name='JBoss Tools Maven Source Lookup' version='1.9.100.v20200609-1353'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.jboss.tools.openshift.egit.integration.feature.feature.group' name='JBoss Tools EGit Integration' version='3.13.0.v20201009-1135'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='org.sonatype.m2e.antlr.feature.feature.group' name='m2e connector for antlr' version='0.15.0.201207090124'>
+      <repositories size='1'>
+        <repository location='https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-antlr/0.15.0/N/0.15.0.201207090124/'/>
+      </repositories>
+    </iu>
+    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201405280027'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.18.0'/>
+      </repositories>
+    </iu>
+    <iu id='qwickie.feature.feature.group' name='qwickie' version='1.1.10.201505151949'>
+      <repositories size='1'>
+        <repository location='https://raw.githubusercontent.com/count-negative/qwickie/master/qwickie.updatesite/site.xml'/>
+      </repositories>
+    </iu>
+    <iu id='com.github.spotbugs.plugin.eclipse.feature.group' name='SpotBugs' version='4.5.1.r202112080059-77c98d0'>
+      <repositories size='0'/>
+    </iu>
+    <iu id='com.ianbrandt.tools.m2e.mdp.feature.feature.group' name='m2e connector for the Maven Dependency Plugin' version='0.0.4.201409291703'>
+      <repositories size='1'>
+        <repository location='http://ianbrandt.github.io/m2e-maven-dependency-plugin/0.0.4/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>
