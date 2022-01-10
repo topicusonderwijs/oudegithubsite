@@ -5,16 +5,7 @@ ontwikkeling te installeren in een kale Eclipse.
 
 ## Eclipse instellen
 
-Download het configuratie (p2f) bestand voor jouw Eclipse versie:
-
-- 4.13 -> 2019-09
-- 4.12 -> 2019-06
-- 4.11 -> 2019-03
-- 4.10 -> 2018-12
-- 4.9  -> 2018-09
-- 4.8  -> Photon
-
-En importeer het bestand in Eclipse via File -> Import... -> Install -> Install Software Items from File
+Download het configuratie (p2f) bestand voor jouw Eclipse versie en importeer het bestand in Eclipse via `File` -> `Import...` -> `Install` -> `Install Software Items from File`.
 
 ## Bestanden onderhouden
 
@@ -36,7 +27,7 @@ export er overheen te zetten.
 ## Bestanden from scratch maken
 
 - Download de `Eclipse IDE for Java Developers` editie van Eclipse
-- Kies voor `Install new software`
+- Kies voor `Install new software`, selecteer 'All Available Sites' en deselecteer `Group items by category`.
 - Kies uit de lijst:
     - `Eclipse IDE for Java Developers`
     - `Eclipse Java Web Developer Tools`
@@ -47,7 +38,7 @@ export er overheen te zetten.
 - Open de `Eclipse Marketplace` en installeer de volgende items (kan in 1 keer via `Back` of `Install more`):
     - `Eclipse Settings for M2E`
     - `JBoss Tools`
-    - `qwickie`
+    - `qwickie` (optioneel)
     - `JRebel` (optioneel)
     - `SpotBugs`
 - Controleer de te installeren features en kies alleen de aangegeven `JBoss Tools` opties:
@@ -63,10 +54,10 @@ export er overheen te zetten.
 - Open `Preferences` en ga naar Maven > Discovery > Open Catalog en selecteer:
     - `antlr`
     - `buildhelper`
-    - `maven-dependency-plugin`
+    - `m2e connector for maven-dependency-plugin`
 - Installeer deze opties en herstart
 - Kies `Check for updates` en herstart indien gevraagd
-- Exporteer de installatie bestanden via File -> Export -> Installed Software Items to file.
+- Exporteer de installatie bestanden via `File` -> `Export` -> `Installed Software Items to file`.
   - Kies voor `eclipse-<release>.p2f`: 
     - `Eclipse IDE for Java Developers`
     - `Eclipse Java Web Developer Tools`
