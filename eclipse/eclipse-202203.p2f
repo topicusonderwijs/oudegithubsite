@@ -38,51 +38,51 @@
         <repository location='https://download.eclipse.org/releases/2022-03/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBoss AS, WildFly &amp; EAP Server Tools' version='3.9.104.v20210113-0926'>
+    <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBoss AS, WildFly &amp; EAP Server Tools' version='3.9.301.v20220321-2026'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.common.jdt.feature.feature.group' name='JBoss Tools JDT Extensions' version='3.15.100.v20210112-1443'>
+    <iu id='org.jboss.tools.common.jdt.feature.feature.group' name='JBoss Tools JDT Extensions' version='3.17.200.v20220214-1047'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.jst.feature.feature.group' name='JBoss Tools Java Standard Tools' version='3.9.300.v20200605-1455'>
+    <iu id='org.jboss.tools.jst.feature.feature.group' name='JBoss Tools Java Standard Tools' version='3.10.100.v20211020-1212'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.maven.apt.feature.feature.group' name='Maven Integration for Eclipse JDT APT' version='1.5.3.201911081053'>
+    <iu id='org.jboss.tools.maven.apt.feature.feature.group' name='Maven Integration for Eclipse JDT APT' version='1.5.4.202201260914'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.maven.feature.feature.group' name='JBoss Maven Integration' version='1.9.200.v20200925-0612'>
+    <iu id='org.jboss.tools.maven.feature.feature.group' name='JBoss Maven Integration' version='1.9.400.v20220110-1812'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.maven.jbosspackaging.feature.feature.group' name='JBoss Tools Maven Packaging Configurator' version='1.9.100.v20200609-1353'>
+    <iu id='org.jboss.tools.maven.jbosspackaging.feature.feature.group' name='JBoss Tools Maven Packaging Configurator' version='1.9.400.v20220110-1812'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.maven.sourcelookup.feature.feature.group' name='JBoss Tools Maven Source Lookup' version='1.9.100.v20200609-1353'>
+    <iu id='org.jboss.tools.maven.sourcelookup.feature.feature.group' name='JBoss Tools Maven Source Lookup' version='1.9.400.v20220110-1812'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.openshift.egit.integration.feature.feature.group' name='JBoss Tools EGit Integration' version='3.13.0.v20201009-1135'>
+    <iu id='org.jboss.tools.openshift.egit.integration.feature.feature.group' name='JBoss Tools EGit Integration' version='3.19.0.v20220210-1450'>
       <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
@@ -93,7 +93,7 @@
     </iu>
     <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201405280027'>
       <repositories size='1'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.21.3'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.23'/>
       </repositories>
     </iu>
     <iu id='qwickie.feature.feature.group' name='qwickie' version='1.1.10.201505151949'>
