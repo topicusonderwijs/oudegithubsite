@@ -87,6 +87,16 @@
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
+    <iu id='org.sonatype.m2e.antlr.feature.feature.group' name='m2e connector for antlr' version='0.15.0.201207090124'>
+      <repositories size='1'>
+        <repository location='https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-antlr/0.15.0/N/0.15.0.201207090124/'/>
+      </repositories>
+    </iu>
+    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201405280027'>
+      <repositories size='1'>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.24.0'/>
+      </repositories>
+    </iu>
     <iu id='qwickie.feature.feature.group' name='qwickie' version='1.1.10.201505151949'>
       <repositories size='1'>
         <repository location='https://raw.githubusercontent.com/count-negative/qwickie/master/qwickie.updatesite/site.xml'/>
