@@ -40,7 +40,6 @@
       </repositories>
     </iu>
     <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBoss AS, WildFly &amp; EAP Server Tools' version='3.9.400.v20220601-0842'>
-      <repositories size='0'/>
       <repositories size='2'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.24.0'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
