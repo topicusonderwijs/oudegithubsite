@@ -1,65 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?p2f version='1.0.0'?>
-<p2f version='1.0.0'>
-  <ius size='15'>
-    <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.25.0.20220908-1200'>
-      <repositories size='3'>
-        <repository location='https://download.eclipse.org/releases/2022-09/'/>
-        <repository location='https://download.eclipse.org/releases/latest/'/>
-        <repository location='https://download.eclipse.org/technology/epp/packages/latest/'/>
-      </repositories>
-    </iu>
+<?p2f version='1.0.0'?><p2f version='1.0.0'>
+  <ius size='10'>
     <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='3.1.6.v20220511-1359'>
-      <repositories size='5'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
-        <repository location='https://download.eclipse.org/releases/2022-09/'/>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.24.0'/>
-        <repository location='https://download.eclipse.org/releases/2022-06/'/>
-        <repository location='https://download.eclipse.org/releases/latest/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.jdt.feature.group' name='Eclipse Java Development Tools' version='3.18.1300.v20220831-1800'>
-      <repositories size='4'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
-        <repository location='https://download.eclipse.org/eclipse/updates/4.25'/>
+      <repositories size='6'>
         <repository location='https://download.eclipse.org/releases/2022-09/'/>
         <repository location='https://download.eclipse.org/releases/latest/'/>
-      </repositories>
-    </iu>
-    <iu id='org.eclipse.m2e.feature.feature.group' name='M2E - Maven Integration for Eclipse' version='2.0.5.20220912-1211'>
-      <repositories size='1'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.wildwebdeveloper.xml.feature.feature.group' name='Wild Web Developer XML tools' version='0.15.0.202207081036'>
-      <repositories size='4'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
+      <repositories size='3'>
         <repository location='https://download.eclipse.org/releases/2022-09/'/>
         <repository location='https://download.eclipse.org/wildwebdeveloper/releases/0.15.0/'/>
         <repository location='https://download.eclipse.org/releases/latest/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.wst.web_ui.feature.feature.group' name='Eclipse Web Developer Tools' version='3.27.0.v202208280234'>
-      <repositories size='3'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
-        <repository location='https://download.eclipse.org/releases/2022-09/'/>
-        <repository location='https://download.eclipse.org/releases/latest/'/>
-      </repositories>
-    </iu>
     <iu id='org.jboss.ide.eclipse.as.feature.feature.group' name='JBoss AS, WildFly &amp; EAP Server Tools' version='3.9.500.v20220706-1609'>
-      <repositories size='1'>
+      <repositories size='2'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
     <iu id='org.jboss.tools.common.jdt.feature.feature.group' name='JBoss Tools JDT Extensions' version='3.17.400.v20220819-0934'>
-      <repositories size='1'>
+      <repositories size='2'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
     <iu id='org.jboss.tools.jst.feature.feature.group' name='JBoss Tools Java Standard Tools' version='3.10.200.v20220527-1014'>
-      <repositories size='2'>
+      <repositories size='3'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.24.0'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
     <iu id='org.jboss.tools.maven.apt.feature.feature.group' name='Maven Integration for Eclipse JDT APT' version='1.5.4.202201260914'>
@@ -68,33 +39,21 @@
       </repositories>
     </iu>
     <iu id='org.jboss.tools.maven.feature.feature.group' name='JBoss Maven Integration' version='1.10.0.v20220919-1250'>
-      <repositories size='1'>
+      <repositories size='2'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
-      </repositories>
-    </iu>
-    <iu id='org.jboss.tools.maven.jbosspackaging.feature.feature.group' name='JBoss Tools Maven Packaging Configurator' version='1.10.0.v20220914-0941'>
-      <repositories size='1'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
     <iu id='org.jboss.tools.maven.sourcelookup.feature.feature.group' name='JBoss Tools Maven Source Lookup' version='1.10.0.v20220914-0941'>
-      <repositories size='1'>
+      <repositories size='2'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
     <iu id='org.jboss.tools.openshift.egit.integration.feature.feature.group' name='JBoss Tools EGit Integration' version='3.20.100.v20220704-0927'>
-      <repositories size='1'>
+      <repositories size='2'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
-      </repositories>
-    </iu>
-    <iu id='org.sonatype.m2e.antlr.feature.feature.group' name='m2e connector for antlr' version='0.15.0.201207090124'>
-      <repositories size='1'>
-        <repository location='https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-antlr/0.15.0/N/0.15.0.201207090124/'/>
-      </repositories>
-    </iu>
-    <iu id='org.sonatype.m2e.buildhelper.feature.feature.group' name='m2e connector for build-helper-maven-plugin' version='0.15.0.201405280027'>
-      <repositories size='1'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.24.0'/>
+        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
     <iu id='qwickie.feature.feature.group' name='qwickie' version='1.1.10.201505151949'>
