@@ -33,11 +33,6 @@
         <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.maven.apt.feature.feature.group' name='Maven Integration for Eclipse JDT APT' version='1.5.4.202201260914'>
-      <repositories size='1'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.24.0'/>
-      </repositories>
-    </iu>
     <iu id='org.jboss.tools.maven.feature.feature.group' name='JBoss Maven Integration' version='1.10.0.v20220919-1250'>
       <repositories size='2'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
