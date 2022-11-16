@@ -20,12 +20,6 @@
         <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
-    <iu id='org.jboss.tools.common.jdt.feature.feature.group' name='JBoss Tools JDT Extensions' version='3.17.400.v20220819-0934'>
-      <repositories size='2'>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
-        <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
-      </repositories>
-    </iu>
     <iu id='org.jboss.tools.jst.feature.feature.group' name='JBoss Tools Java Standard Tools' version='3.10.200.v20220527-1014'>
       <repositories size='3'>
         <repository location='https://download.jboss.org/jbosstools/photon/stable/updates/'/>
