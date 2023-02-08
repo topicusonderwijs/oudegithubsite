@@ -91,7 +91,7 @@
         <repository location='https://download.jboss.org/jbosstools/photon/stable/composite/4.25.0'/>
       </repositories>
     </iu>
-    <iu id='qwickie.feature.feature.group' name='qwickie' version='1.1.10.201505151949'>
+    <iu id='qwickie.feature.feature.group' name='qwickie' version='1.2.0.202301071156'>
       <repositories size='1'>
         <repository location='https://raw.githubusercontent.com/count-negative/qwickie/master/qwickie.updatesite/site.xml'/>
       </repositories>
